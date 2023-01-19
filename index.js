@@ -27,7 +27,7 @@ inquirer
         {
             type: 'list',
             name: 'license',
-            choices: [ "BSD", "MIT", "GPL"]
+            choices: ["BSD", "MIT", "GPL"]
         },
         {
             type: 'input',
@@ -66,15 +66,23 @@ inquirer
             // Something else went wrong
         }
     });
-
-const generateReadme = ({ title, description, installation, usage, license, contribution, test, github, questions}) =>
-`# ${title} 
-## ${description}
-## ${installation}
-## ${usage}
-## ${license}
-## ${contribution}
-## ${test}
+// below -  generation of the read me file, layout of the md language to create the read me. 
+const generateReadme = ({ title, description, installation, usage, license, contribution, test, github, questions }) =>
+    `# ${title} 
+## Description
+${description}
+## Table of Contents
+## Installation
+${installation}
+## Usage
+${usage}
+## License
+${license}
+## Contribution Guidelines
+${contribution}
+## Testing
+${test}
+## Questions
 ${github}
-${questions}
+For questions about this repository and project contact Jennilee Messenger @ ${questions}
 `
