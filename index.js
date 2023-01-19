@@ -69,7 +69,7 @@ inquirer
 // below -  generation of the read me file, layout of the md language to create the read me. 
 const generateReadme = ({ title, description, installation, usage, license, contribution, test, github, questions }) =>
     `# ${title} 
-## Description
+## 
 ${description}
 ## Table of Contents
 ## Installation
