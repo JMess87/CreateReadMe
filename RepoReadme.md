@@ -7,7 +7,7 @@ The repo will be uploaded so there will be nothing to "publish". Repo will inclu
 3. package-lock.json
 
 ## Link to screen casting
-*Add link to screencasting*
+https://drive.google.com/file/d/1Z6CQXaxcrba174wzoyAYu6Dik2BH0UMO/view
 
 ## Instructions for external user
 1. Save all documents to local location
