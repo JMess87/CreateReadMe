@@ -27,7 +27,7 @@ inquirer
         {
             type: 'list',
             name: 'license',
-            choices: ["BSD", "MIT", "GPL"]
+            choices: ["BSD", "MIT", "GPL", "Mozilla", "Apache", "Boost", "The Unlicense"]
         },
         {
             type: 'input',
@@ -71,13 +71,13 @@ const generateReadme = ({ title, description, installation, usage, license, cont
     
 `# ${title} 
 ## Table of Contents
-1. [Description] ()
-2. [Installation]()
-3. [Usage]()
-4. [License]()
-5. [Contribution Guidelines]()
-6. [Testing]()
-7. [Questions]()
+1. [Description](https://github.com/JMess87/CreateReadMe/blob/main/README.md#description)
+2. [Installation](https://github.com/JMess87/CreateReadMe/blob/main/README.md#installation)
+3. [Usage](https://github.com/JMess87/CreateReadMe/blob/main/README.md#installation)
+4. [License](https://github.com/JMess87/CreateReadMe/blob/main/README.md#license)
+5. [Contribution Guidelines](https://github.com/JMess87/CreateReadMe/blob/main/README.md#license)
+6. [Testing](https://github.com/JMess87/CreateReadMe/blob/main/README.md#testing)
+7. [Questions](https://github.com/JMess87/CreateReadMe/blob/main/README.md#questions)
 
 ## Description
 ${description}
@@ -93,5 +93,5 @@ ${contribution}
 ${test}
 ## Questions
 ${github}
-For questions about this repository and project contact Jennilee Messenger @ [github.com/${questions}](https://github.com/${questions})
+For questions about this repository and project contact Jennilee Messenger @ [github.com/${github}](https://github.com/${github})
  or reach out to them @ ${questions}`

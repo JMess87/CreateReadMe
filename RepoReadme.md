@@ -22,7 +22,8 @@ Link to NPM - utilized to create a drop down selection list. https://www.npmjs.c
 
 Markdown Language Library - https://markdown.land/markdown-cheat-sheet
 
-Creating a Table of Contents for Markdown File - https://ondrej-vaskoo.medium.com/generating-table-of-contents-for-markdown-file-178b2be72c92 
+Creating a Table of Contents for Markdown File - https://www.setcorrect.com/portfolio/work11/
 
 Creating internal links in readme - https://anvilproject.org/guides/content/creating-links
 
+License Exmaples - https://choosealicense.com/licenses/
