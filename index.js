@@ -68,10 +68,19 @@ inquirer
     });
 // below -  generation of the read me file, layout of the md language to create the read me. 
 const generateReadme = ({ title, description, installation, usage, license, contribution, test, github, questions }) =>
-    `# ${title} 
-## 
-${description}
+    
+`# ${title} 
 ## Table of Contents
+1. [Description] ()
+2. [Installation]()
+3. [Usage]()
+4. [License]()
+5. [Contribution Guidelines]()
+6. [Testing]()
+7. [Questions]()
+
+## Description
+${description}
 ## Installation
 ${installation}
 ## Usage
@@ -84,5 +93,5 @@ ${contribution}
 ${test}
 ## Questions
 ${github}
-For questions about this repository and project contact Jennilee Messenger @ ${questions}
-`
+For questions about this repository and project contact Jennilee Messenger @ [github.com/${questions}](https://github.com/${questions})
+ or reach out to them @ ${questions}`
